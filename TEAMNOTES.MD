@@ -20,7 +20,7 @@ What project/issue you picked(link to it):
 - Event Badge: https://github.com/elmsln/issues/issues/607
 
 Hand-drawn Sketch:
-- [Check-In1Sketch.pdf](/Project3/Check-In1Sketch.pdf)
+- [Check-In1Sketch.pdf](https://github.com/runtimeErrorsMadeEasy/Project3/blob/master/Check-In1Sketch.pdf)
 
 Initial questions/unknowns:
 - How do we wire our element to Hax?
