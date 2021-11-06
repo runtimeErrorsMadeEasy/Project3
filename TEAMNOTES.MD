@@ -19,8 +19,8 @@ Our next steps are to complete Check-In 1 as a group. Then individually watch th
 What project/issue you picked(link to it):
 - Event Badge: https://github.com/elmsln/issues/issues/607
 
-A hand-drawn/computer sketch/XD/some annotation visually of what needs to be done or what pieces get broken out. This could be drawn over the top of a screenshot of the item or a photo of whiteboard sketches. Whatever makes the most sense to you.
-- 
+Hand-drawn Sketch:
+- [Check-In1Sketch.pdf](/Project3/Check-In1Sketch.pdf)
 
 Initial questions/unknowns:
 - How do we wire our element to Hax?
