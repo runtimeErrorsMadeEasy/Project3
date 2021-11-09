@@ -1,5 +1,6 @@
 // dependencies / things imported
 import { LitElement, html, css } from 'lit';
+import './eventHeader.js';
 
 // EXPORT (so make available to other documents that reference this file) a class, that extends LitElement
 // which has the magic life-cycles and developer experience below added
@@ -58,13 +59,37 @@ export class EventBadge extends LitElement {
       :host {
         display: block;
       }
-      .cardContainer {
-        padding: 30px;
-        background-color: red;
+      .badgeContainer {
+        border-radius: 25px;
+        background-color: #8ac007;
+        width: 575px;
+        height: 750px;
         border-width: 1px;
         display: flex;
         flex-direction: column;
         border-color: black;
+      }
+      .badgeBanner {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding-left: 0px;
+      }
+      .badgeBannerContainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding-top: 20px;
+      }
+      .holePunchContainer {
+        padding-top: 20px;
+      }
+      .holePunch {
+        margin: auto;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: grey;
       }
     `;
   }
@@ -72,8 +97,23 @@ export class EventBadge extends LitElement {
   // HTML - specific to Lit
   render() {
     return html`
-    <div class="cardContainer"></div>
-      <h1>Make me awesome</h1>
+    <div class="badgeContainer">
+    <div class="holePunchContainer">
+        <div class="holePunch"></div>
+    </div>
+      <div class="badgeBannerContainer"> 
+        <div
+          class="badgeBanner"
+          style="--learning-card-banner-color: ${this.bannerColor}"
+        >
+        </div>
+        <learning-header>
+            <div slot="main-header">
+              <slot name="header" style="">Main Header</slot>
+            </div>
+          </learning-header>
+        </div>
+      </div>
       <p>Build the future we ${this.need}.</p>
       <slot></slot>
     </div>
