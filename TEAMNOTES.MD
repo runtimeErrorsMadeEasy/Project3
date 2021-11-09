@@ -1,9 +1,56 @@
 # Team Notes
 
 ## Event Badge Requirements:
+- Work for any conference that would have an image
+- Needs to implement a variable for where it says MEDIA, as well as name, title, and company and personal image
+- Needs to emulate this visually. The graphics are included in the comp (view source as to how to emulate/copy)
+- Element must be wired to HAX
+- Demo must have 4 example badges, one for each of the member of our team
+- Have multiple elements or properties for things like the top bar that has media on it, the TV screen, and the footer image.
+- Have a property to do a CSS transformation to make this sepia, black & white, or normal looking (retro-card has some examples)
+- A meaningful automated test for the element you produce
+- A story that allows for leveraging properties
+- Teamnotes maintained with status updates
+- Published to NPM
 
+Bonus:
+- Optional support for an icon to render in HAX (+1%)
+- Add lazyloading support for all assets and the element itself (+1%)
+- More to be announced as we move forward
 
 ## Meeting Notes:
+
+### Meeting Date 11/18
+
+#### What we did:
+
+
+#### What we'll do next
+
+
+### Meeting Date 11/16
+
+#### What we did:
+
+
+#### What we'll do next
+
+
+### Meeting Date 11/11
+
+#### What we did:
+
+
+#### What we'll do next
+
+
+### Meeting Date 11/9
+
+#### What we did:
+We listened to Bryan talk about the questions that the differnt groups submitted in the first check-in. We then got started on building our event badge.
+
+#### What we'll do next
+We will continue to work on our event badge.
 
 ### Meeting Date 11/4
 
