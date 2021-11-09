@@ -24,23 +24,24 @@ export class LearningHeader extends SimpleColors {
       css`
         :host {
           display: block;
-          color: var(--simple-colors-default-theme-grey-1);
         }
         #headers {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: flex-start;
+          border-width: 10px;
         }
 
         #main-header {
           text-align: center;
+          color: white;
           font-weight: lighter;
           font-size: 50px;
-          padding-left: 30px;
         }
-        h2 {
-          text-align: center;
+
+        #headers h2 {
+          margin: 0;
         }
       `,
     ];

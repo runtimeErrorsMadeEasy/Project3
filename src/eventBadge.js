@@ -64,19 +64,32 @@ export class EventBadge extends LitElement {
         background-color: #8ac007;
         width: 575px;
         height: 750px;
-        padding: 30px;
         border-width: 1px;
         display: flex;
         flex-direction: column;
         border-color: black;
       }
       .badgeBanner {
-        background-color: red;
         display: flex;
-        justify-content: '';
+        justify-content: center;
         flex-direction: row;
-        padding-right: 5px;
         padding-left: 0px;
+      }
+      .badgeBannerContainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding-top: 20px;
+      }
+      .holePunchContainer {
+        padding-top: 20px;
+      }
+      .holePunch {
+        margin: auto;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: grey;
       }
     `;
   }
@@ -85,10 +98,15 @@ export class EventBadge extends LitElement {
   render() {
     return html`
     <div class="badgeContainer">
+    <div class="holePunchContainer">
+        <div class="holePunch"></div>
+    </div>
+      <div class="badgeBannerContainer"> 
         <div
-          class="cardBanner"
+          class="badgeBanner"
           style="--learning-card-banner-color: ${this.bannerColor}"
         >
+        </div>
         <learning-header>
             <div slot="main-header">
               <slot name="header" style="">Main Header</slot>
