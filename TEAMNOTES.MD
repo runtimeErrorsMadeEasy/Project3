@@ -39,10 +39,10 @@ Bonus:
 ### Meeting Date 11/11
 
 #### What we did:
-
+In today's class, we listened to Bryan talk about PenStat's question about slots and input elements. We then continued to work on our event badge.
 
 #### What we'll do next
-
+We will get our other elements started and continue to work on the badge.
 
 ### Meeting Date 11/9
 
@@ -99,8 +99,19 @@ What properties need to be mapped to HAX/the storybook? What can the user intera
 - The user with need to be able to change the badge holder information, image, as well as the different color variations for the different elements within the badge.
 
 ### Check-in 2
+Elements Started:
+- EventBadge
+- EventHeader
+
+Possible Work Delegation:
+- Adam: Storybook
+- Kat: Teamnotes Keeper
+- Liz: Lead Developer
+- Nick: Testing
+
+Questions:
 - 
-- 
+
 ### Check-in 3
 - 
 - 
