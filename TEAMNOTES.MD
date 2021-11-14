@@ -105,12 +105,12 @@ Elements Started:
 
 Possible Work Delegation:
 - Adam: Storybook
-- Kat: Teamnotes Keeper
+- Kat: Teamnotes Updater
 - Liz: Lead Developer
 - Nick: Testing
 
 Questions:
-- 
+- None at the moment
 
 ### Check-in 3
 - 
