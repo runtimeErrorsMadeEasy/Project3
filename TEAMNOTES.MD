@@ -20,21 +20,53 @@ Bonus:
 
 ## Meeting Notes:
 
-### Meeting Date 11/18
+### Meeting Date 12/9
 
-#### What we did:
+#### What we did: 
 
 
 #### What we'll do next
 
+
+### Meeting Date 12/7
+
+#### What we did: 
+
+
+#### What we'll do next
+
+
+### Meeting Date 12/2
+
+#### What we did: 
+
+
+#### What we'll do next
+
+
+### Meeting Date 11/30
+
+#### What we did: 
+
+
+#### What we'll do next
+
+
+### Meeting Date 11/18
+
+#### What we did: 
+Today we listened to Bryan talk about the progress 3b4b, PenStat, table-in-the-corner, and viable-slime have made, as well as the two tutorials of haxProporties wiring and MutationsObservations example code pen. We then broke up into groups to give and recieve feedback about our current projects. We were paired with the groups that were doing the trading card as we are the only group doing the event badge.
+
+#### What we'll do next
+We plan to continue working on our event badge, as well as work on the improvements that were suggested by the other two teams.
 
 ### Meeting Date 11/16
 
 #### What we did:
-
+Class was canceled due to Bryan being sick.
 
 #### What we'll do next
-
+We will continue to work on the event badge.
 
 ### Meeting Date 11/11
 
@@ -113,8 +145,18 @@ Questions:
 - None at the moment
 
 ### Check-in 3
+Progress:
+- Kat created the footer/header image that we plan to have on the card, which is [Footer.png](https://github.com/runtimeErrorsMadeEasy/Project3/blob/master/Footer.png).
+- Liz added the image to the card as well as added the padding and such for all our elements.
+
+Group Activity Links:
+- [3b4b Issues:](https://github.com/3B4B/project-3/issues/17)
+- [Our Issues Part 1:](https://github.com/runtimeErrorsMadeEasy/Project3/issues/13)
+- [Our Issues Part 2:](https://github.com/runtimeErrorsMadeEasy/Project3/issues/15)
+
+Questions:
 - 
-- 
+
 ### Check-in 4
 - 
 - 
