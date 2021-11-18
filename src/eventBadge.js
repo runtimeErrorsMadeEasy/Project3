@@ -1,6 +1,9 @@
 // dependencies / things imported
 import { LitElement, html, css } from 'lit';
 import './eventHeader.js';
+import './eventLogo.js';
+import './eventName.js';
+import './eventPhoto.js';
 
 // EXPORT (so make available to other documents that reference this file) a class, that extends LitElement
 // which has the magic life-cycles and developer experience below added
@@ -67,7 +70,6 @@ export class EventBadge extends LitElement {
         border-width: 1px;
         display: flex;
         flex-direction: column;
-        border-color: black;
       }
       .badgeBanner {
         display: flex;
@@ -89,7 +91,38 @@ export class EventBadge extends LitElement {
         width: 25px;
         height: 25px;
         border-radius: 50%;
-        background: grey;
+        background: white;
+      }
+
+      .photoContainer {
+        display: flex;
+        width: 575px;
+        height: 500px;
+      }
+
+      .nameContainer {
+        display: flex;
+        width: 575px;
+        height: 500px;
+      }
+
+      .logoContainer {
+        display: flex;
+        width: 575px;
+        height: 500px;
+        align-items: center;
+      }
+
+      :hover .holePunch {
+        box-shadow: inset 0px 0px 2px hsl(220deg 10% 40% / 0.333),
+          inset 0px 0px 4px hsl(220deg 10% 40% / 0.333),
+          inset 0px 0px 6px hsl(220deg 10% 40% / 0.333);
+      }
+
+      .badgeContainer:hover {
+        box-shadow: 0px 0px 2px hsl(220deg 10% 40% / 0.333),
+          0px 0px 4px hsl(220deg 10% 40% / 0.333),
+          0px 0px 6px hsl(220deg 10% 40% / 0.333);
       }
     `;
   }
@@ -107,15 +140,16 @@ export class EventBadge extends LitElement {
           style="--learning-card-banner-color: ${this.bannerColor}"
         >
         </div>
-        <learning-header>
+        <event-header>
             <div slot="main-header">
               <slot name="header" style="">Main Header</slot>
             </div>
-          </learning-header>
+          </event-header>
         </div>
+      <div class="photoContainer"><event-photo></event-photo></div>
+      <div class="nameContainer"><event-name></event-name></div>
+      <div class="logoContainer"><event-logo></event-logo></div>
       </div>
-      <p>Build the future we ${this.need}.</p>
-      <slot></slot>
     </div>
     `;
   }

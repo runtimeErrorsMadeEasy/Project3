@@ -1,20 +1,22 @@
 import { html, css } from 'lit';
 import { SimpleColors } from '@lrnwebcomponents/simple-colors/simple-colors';
 
-export class LearningHeader extends SimpleColors {
+const footerBanner = new URL('../assets/Footer.png', import.meta.url).href;
+
+export class EventHeader extends SimpleColors {
   constructor() {
     super();
-    this.accentColor = 'pink';
-    this.dark = false;
+    this.icon = footerBanner;
   }
 
   static get tag() {
-    return 'learning-header';
+    return 'event-header';
   }
 
   static get properties() {
     return {
       ...super.properties,
+      icon: { type: String },
     };
   }
 
@@ -25,7 +27,11 @@ export class LearningHeader extends SimpleColors {
         :host {
           display: block;
         }
-        #headers {
+
+        .container {
+          position: relative;
+          text-align: center;
+          color: red;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -40,19 +46,23 @@ export class LearningHeader extends SimpleColors {
           font-size: 50px;
         }
 
-        #headers h2 {
-          margin: 0;
+        .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
         }
       `,
     ];
   }
 
   render() {
-    return html` <div>
-      <div id="headers">
+    return html` <div class="container">
+      <img src="${this.icon}" alt="" />
+      <div class="centered">
         <h2><slot id="main-header" name="main-header">main header</slot></h2>
       </div>
     </div>`;
   }
 }
-customElements.define(LearningHeader.tag, LearningHeader);
+customElements.define(EventHeader.tag, EventHeader);
