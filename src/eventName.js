@@ -23,7 +23,7 @@ export class EventName extends SimpleColors {
       ...super.styles,
       css`
         :host {
-          display: block;
+          display: inline-flex;
         }
       `,
     ];

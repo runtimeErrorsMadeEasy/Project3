@@ -44,6 +44,7 @@ export class EventHeader extends SimpleColors {
           color: white;
           font-weight: lighter;
           font-size: 50px;
+          justify-content: stretch;
         }
 
         .centered {

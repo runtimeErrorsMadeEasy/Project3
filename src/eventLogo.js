@@ -1,7 +1,7 @@
 import { html, css } from 'lit';
 import { SimpleColors } from '@lrnwebcomponents/simple-colors/simple-colors';
 
-const footerBanner = new URL('../assets/Footer.png', import.meta.url).href;
+const footerBanner = new URL('../assets/Helmet.png', import.meta.url).href;
 
 export class EventLogo extends SimpleColors {
   constructor() {
@@ -25,7 +25,7 @@ export class EventLogo extends SimpleColors {
       ...super.styles,
       css`
         :host {
-          display: block;
+          display: inline-flex;
         }
         img {
           display: inline-flex;
