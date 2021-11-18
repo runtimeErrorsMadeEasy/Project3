@@ -102,15 +102,13 @@ export class EventBadge extends LitElement {
 
       .nameContainer {
         display: flex;
-        width: 575px;
-        height: 500px;
+        float: left;
       }
 
       .logoContainer {
         display: flex;
-        width: 575px;
-        height: 500px;
-        align-items: center;
+        float: left;
+        justify-content: end;
       }
 
       :hover .holePunch {
