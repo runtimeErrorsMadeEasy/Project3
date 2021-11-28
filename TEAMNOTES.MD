@@ -147,7 +147,7 @@ Questions:
 ### Check-in 3
 Progress:
 - Kat created the footer/header image that we plan to have on the card, which is [Footer.png](https://github.com/runtimeErrorsMadeEasy/Project3/blob/master/Footer.png).
-- Liz added the image to the card as well as contiues to work on the formatting of the badge.
+- Liz has worked on getting all the elemnets set up, as well as adding the header image, and placed the logo image.
 
 Group Activity Links:
 - [3b4b Issues:](https://github.com/3B4B/project-3/issues/17)
@@ -155,7 +155,7 @@ Group Activity Links:
 - [Our Issues Part 2:](https://github.com/runtimeErrorsMadeEasy/Project3/issues/15)
 
 Questions:
-- 
+- None at the moment
 
 ### Check-in 4
 - 
