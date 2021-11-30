@@ -47,10 +47,10 @@ Bonus:
 ### Meeting Date 11/30
 
 #### What we did: 
-
+In this class we listened to Bryan go over 4 different groups projects. One was ours and he liked how the hole punch was done, as well as how we added a box shadow to add a liitle bit of a 3d affect to our badge. We all also did our SRTE's during class.
 
 #### What we'll do next
-
+We will continue to work on getting our badge to mean all the expectations of this project.
 
 ### Meeting Date 11/18
 
