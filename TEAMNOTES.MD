@@ -1,22 +1,21 @@
 # Team Notes
 
 ## Event Badge Requirements:
-- Work for any conference that would have an image
-- Needs to implement a variable for where it says MEDIA, as well as name, title, and company and personal image
-- Needs to emulate this visually. The graphics are included in the comp (view source as to how to emulate/copy)
-- Element must be wired to HAX
-- Demo must have 4 example badges, one for each of the member of our team
-- Have multiple elements or properties for things like the top bar that has media on it, the TV screen, and the footer image.
-- Have a property to do a CSS transformation to make this sepia, black & white, or normal looking (retro-card has some examples)
-- A meaningful automated test for the element you produce
-- A story that allows for leveraging properties
-- Teamnotes maintained with status updates
-- Published to NPM
+- Work for any conference that would have an image 
+- Needs to implement a variable for where it says MEDIA, as well as name, title, and company and personal image 
+- Needs to emulate this visually. The graphics are included in the comp (view source as to how to emulate/copy) 
+- Element must be wired to HAX 
+- Demo must have 4 example badges, one for each of the member of our team 
+- Have multiple elements or properties for things like the top bar that has media on it, the TV screen, and the footer image. 
+- Have a property to do a CSS transformation to make this sepia, black & white, or normal looking (retro-card has some examples) 
+- A meaningful automated test for the element you produce 
+- A story that allows for leveraging properties 
+- Teamnotes maintained with status updates ✓
+- Published to NPM 
 
 Bonus:
 - Optional support for an icon to render in HAX (+1%)
 - Add lazyloading support for all assets and the element itself (+1%)
-- More to be announced as we move forward
 
 ## Meeting Notes:
 
@@ -39,10 +38,10 @@ Bonus:
 ### Meeting Date 12/2
 
 #### What we did: 
-
+Today is a work day in class.
 
 #### What we'll do next
-
+We plan to work hard get this project to a more finalized state than it currently is.
 
 ### Meeting Date 11/30
 
@@ -158,5 +157,12 @@ Questions:
 - None at the moment
 
 ### Check-in 4
-- 
-- 
+Progress
+- We honestly still have a lot left to do for our event badge.
+- TO DO: get our photo and photo holder added to our photo element, get the name element to have the name and title of the person, wire our project to HAX, add slots, individualize the 4 demos, test our element, create the storybook, and of course publish it to NPM by the deadline.
+- To get this done our team is going to have to work hard and together to finish everything by the deadline of Dec. 12th.
+
+Questions
+- Is it ok if we do the event as hockey instead of media?
+- How should we get the photo inside the photo holder within our photo element?
+- What advise do you have for us in general?
