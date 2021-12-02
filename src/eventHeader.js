@@ -41,9 +41,11 @@ export class EventHeader extends SimpleColors {
 
         #main-header {
           text-align: center;
+          text-transform: uppercase;
           color: white;
           font-weight: lighter;
           font-size: 50px;
+          -webkit-text-stroke: 2px black;
           justify-content: stretch;
         }
 

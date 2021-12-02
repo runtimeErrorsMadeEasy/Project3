@@ -64,7 +64,7 @@ export class EventBadge extends LitElement {
       }
       .badgeContainer {
         border-radius: 25px;
-        background-color: #8ac007;
+        background-color: #a2aaad;
         width: 575px;
         height: 750px;
         border-width: 1px;
@@ -140,7 +140,7 @@ export class EventBadge extends LitElement {
         </div>
         <event-header>
             <div slot="main-header">
-              <slot name="header" style="">Main Header</slot>
+              <slot name="header" style="">Hockey</slot>
             </div>
           </event-header>
         </div>
