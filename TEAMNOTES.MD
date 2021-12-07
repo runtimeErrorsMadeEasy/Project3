@@ -30,10 +30,10 @@ Bonus:
 ### Meeting Date 12/7
 
 #### What we did: 
-
+Today Bryan discussed feedback for 5 different groups including ours. The feedback we got was that it is ok for us to do a hockey theme. How to put the person's image under the image frame/holder. Then finally just general advice of we need accentColor, add a darker shadow, slot our top content, needs support for an image, name, title, and company, and have an image frame/holder.
 
 #### What we'll do next
-
+We will continue to work on all the aspects of the project that we need to get done. Most of this work will probably get done this weekend as we all have other projects we are working on as well.
 
 ### Meeting Date 12/2
 
