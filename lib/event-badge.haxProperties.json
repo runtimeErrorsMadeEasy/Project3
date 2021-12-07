@@ -1,6 +1,6 @@
 {
-    "canScale": false,
-    "canPosition": false,
+    "canScale": true,
+    "canPosition": true,
     "canEditSource": true,
     "contentEditable": true,
     "gizmo": {
@@ -13,10 +13,40 @@
     "settings": {
       "configure": [
         {
-          "property": "need",
-          "title": "Need",
-          "description": "What we all need",
+          "property": "header",
+          "title": "Header",
+          "description": "What event is this badge for?",
           "inputMethod": "textfield"
+        },
+        {
+          "property": "image",
+          "title": "Image",
+          "description": "What image for yourself do you want?",
+          "inputMethod": "fileupload"
+        },
+        {
+          "property": "name",
+          "title": "Name",
+          "description": "What is your name?",
+          "inputMethod": "textfield"
+        },
+        {
+          "property": "title",
+          "title": "Title",
+          "description": "What is your title?",
+          "inputMethod": "textfield"
+        },
+        {
+          "property": "company",
+          "title": "Company",
+          "description": "What is the company your work for?",
+          "inputMethod": "textfield"
+        },
+        {
+          "property": "logo",
+          "title": "Logo",
+          "description": "What is your company's logo?",
+          "inputMethod": "fileupload"
         }
       ],
       "advanced": [
@@ -26,9 +56,14 @@
       {
         "tag": "event-badge",
         "properties": {
-            "need": "the future"
-        },
-        "content": "<p>Some internal slotted content</p>"
+            "header": "Hockey",
+            "image": "",
+            "name": "Name",
+            "title": "Title",
+            "company": "Company",
+            "logo" : ""
+
+        }
       }
     ]
   }
