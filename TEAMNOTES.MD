@@ -1,17 +1,18 @@
 # Team Notes
 
 ## Event Badge Requirements:
-- Work for any conference that would have an image 
-- Needs to implement a variable for where it says MEDIA, as well as name, title, and company and personal image 
-- Needs to emulate this visually. The graphics are included in the comp (view source as to how to emulate/copy) 
-- Element must be wired to HAX 
-- Demo must have 4 example badges, one for each of the member of our team 
-- Have multiple elements or properties for things like the top bar that has media on it, the TV screen, and the footer image. 
-- Have a property to do a CSS transformation to make this sepia, black & white, or normal looking (retro-card has some examples) 
-- A meaningful automated test for the element you produce 
-- A story that allows for leveraging properties 
-- Teamnotes maintained with status updates ✓
-- Published to NPM 
+- Final result matches the composite/issue selected, is polished, wired to HAX(4%) 
+- Issue specific requirements are satisfied in the design and implementation of the element(10%):
+    - Work for any conference that would have an image 
+    - Needs to implement a variable for where it says MEDIA, as well as name, title, and company and personal image 
+    - Needs to emulate this visually. The graphics are included in the comp (view source as to how to emulate/copy) 
+    - Demo must have 4 example badges, one for each of the member of our team 
+    - Have multiple elements or properties for things like the top bar that has media on it, the TV screen, and the footer image. 
+    - Have a property to do a CSS transformation to make this sepia, black & white, or normal looking (retro-card has some examples) 
+- A meaningful automated test for the element you produce(1%) 
+- A story that allows for leveraging properties(1%) 
+- Teamnotes maintained with status updates(2%) ✓
+- Published to NPM(2%) 
 
 Bonus:
 - Optional support for an icon to render in HAX (+1%)
@@ -22,7 +23,7 @@ Bonus:
 ### Meeting Date 12/9
 
 #### What we did: 
-
+This is another work day in class. 
 
 #### What we'll do next
 
