@@ -23,10 +23,10 @@ Bonus:
 ### Meeting Date 12/9
 
 #### What we did: 
-This is another work day in class. 
+This is another work day in class.
 
 #### What we'll do next
-
+We plan to work on our project a ton this weekend to finish it up our event badge.
 
 ### Meeting Date 12/7
 
