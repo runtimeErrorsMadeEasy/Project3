@@ -1,19 +1,32 @@
 import { html } from 'lit';
 import { fixture, expect } from '@open-wc/testing';
 
-import '../rename-me.js';
+import '../src/app.js';
+import '../src/eventBadge.js';
 
-describe('RenameMe', () => {
+describe('eventBadge', () => {
   let element;
   beforeEach(async () => {
-    element = await fixture(html`<rename-me></rename-me>`);
+    element = await fixture(html`<event-badge>
+    <div id="holePunch" class="holePunch"></div>
+    <h2 slot="main-header">testing my dumb tests</h2>
+    <h23 slot="main-name">testing my dumb tests but this is name</h23>
+    </event-badge>
+    `);
   });
 
-  it('renders a h1', () => {
-    const h1 = element.shadowRoot.querySelector('h1');
-    expect(h1).to.exist;
-    expect(h1.textContent).to.equal('cool');
+  it('renders the main header', () => {
+    const h2 = element.querySelector('h2');
+    expect(h2).to.exist;
+    expect(h2.innerText).to.equal('testing my dumb tests');
   });
+  
+  it('renders the name', () => {
+    const h23 = element.querySelector('h23');
+    expect(h23).to.exist;
+    expect(h23.innerText).to.equal('testing my dumb tests but this is name');
+  });
+
 
   it('passes the a11y audit', async () => {
     await expect(element).shadowDom.to.be.accessible();
